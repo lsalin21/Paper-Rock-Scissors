@@ -1,0 +1,39 @@
+body{
+    background-color: aqua;
+    width: 100%;
+}
+
+div.gameTitle{
+    display: flex;
+    justify-content: center;
+}
+
+div.choices{
+    display: flex;
+    justify-content: center;
+}
+
+div.results{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin: auto;
+    padding: 20px 0 20px 0;
+
+}
+
+button.selection{
+    width: 90px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    margin: 8px;
+    transition: 100ms;
+    cursor: pointer;
+}
+
+button.selection:hover{
+    transform: scale(1.1);
+}

@@ -2,15 +2,27 @@
 <html>
     <head>
         <title>Paper-Rock-Scissors</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
     </head>
     <body>
-        <div class="game-title">
+        <div class="gameTitle">
             <h1>Paper Rock Scissors</h1>
         </div>
         <div class="choices">
-            <button class="choice-button">Rock</button>
-            <button class="choice-button">Paper</button>
-            <button class="choice-button">Scissors</button>
+            <button class="selection" data-selection="rock">Rock</button>
+            <button class="selection" data-selection="paper">Paper</button>
+            <button class="selection" data-selection="scissors">Scissors</button>
+        </div>
+        <div class="results">
+            <div>
+                You:
+                <span class="result-score" data-your-score>0</span>
+            </div>
+            <div>
+                Computer:
+                <span class="result-score" data-computer-score>0</span>
+            </div>
         </div>
     </body>
 </html>
